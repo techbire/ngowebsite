@@ -1,0 +1,154 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #08346aed;
+    color: white;
+    padding: small;
+  
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 12px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 32px;
+}
+header nav ul li a {
+    font-size: 18px; /*You can adjust the font size as per your requirement */
+    font-family:"Space Grotesk", sans-serif;/* Applying the custom font */
+    text-decoration: none; /* Removing underline from the links */
+   
+   
+}
+
+
+header p {
+    font-size: 18px; 
+    font-family: "Space Grotesk", sans-serif; /* Applying the custom font */
+    
+}
+
+header p img {
+    height: 24px;
+    width: 28px; /* Applying the custom font */
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero section styles */
+.header {
+    position: relative;
+    text-align: center; /* Adjust the height as needed */
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    filter: blur(1.2px);
+}
+
+.hero {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+
+footer {
+    background-color: #000000d4;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family:  "Cinzel", serif;
+    font-size: 65px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+  
+
+.hero p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px; /* Adjust the size as needed */
+    color: white;
+    top: 30%;
+}
+
+button{font-family: 'Montserrat Alternates', sans-serif;
+font-size: 35px;
+background-color: #8D98A7;
+}
+
+
+button[type="submit"] {
+    background-color: #08346aed; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 8px solid white;
+    
+  }
+  
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 7px;
+    padding-top: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
